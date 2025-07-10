@@ -1,0 +1,126 @@
+/* ===== Start: Gooogle Font ===== */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* ===== End: Gooogle Font ===== */
+/* css reset  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/* ===== Start: Body ===== */
+
+/* ===== End: Body ===== */
+
+/* ===== Start: Color variable ===== */
+:root {
+  --primary-bg-color: #fff8f3;
+  --priamry-color: #181818;
+  --secondary-color: #757575;
+  --btn-bg: #fd6e0a;
+}
+/* ===== End: Color variable ===== */
+
+/* ===== Start: Same Styling  ===== */
+a {
+  text-decoration: none;
+}
+.primary-btn {
+  padding: 1rem 1.5rem;
+  background: var(--btn-bg);
+  font-size: 20px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.secondary-btn {
+  margin-left: 1.5rem;
+  padding: 1rem 1rem;
+  border: 2px solid var(--btn-bg);
+  font-size: 20px;
+  background: transparent;
+  color: var(--btn-bg);
+  border-radius: 5px;
+  font-weight: bold;
+  position: relative;
+}
+
+/* ===== End: Same Styling  ===== */
+
+/* ===== Start: Header SEction ===== */
+
+header {
+  background: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: 3%, right bottom;
+  padding-top: 3.125rem;
+  background-color: var(--primary-bg-color);
+}
+/* ===== Start: Navbar ===== */
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto 3.125rem auto;
+}
+
+nav h2 {
+  font-size: 2.8125rem;
+  font-weight: 900;
+}
+
+nav h2 span {
+  color: var(--btn-bg);
+}
+nav div ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+}
+
+nav div ul li a {
+  color: var(--secondary-color);
+  font-size: 1.25rem;
+}
+/* ===== End: Navbar ===== */
+/* ===== Start: Banner  ===== */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 80px 0 380px;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 585px;
+  /* height: 356px; */
+  /* margin-left: 240px; */
+}
+.greeting {
+  font-size: 45px;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  color: var(--priamry-color);
+}
+
+.banner-description {
+  margin: 30px 0;
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--secondary-color);
+}
+/* ===== End: Banner  ===== */
+
+/* ===== End: Header SEction ===== */
